@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+	<html lang="en">
+
+		<head>
+			<title>Algorithm Match</title>
+
+		  	<meta charset="utf-8">
+		  	<meta name="viewport" content="width=device-width, initial-scale=1">
+		  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		</head>
+
+		<body>
+			
+			<div class="container">
+				<h2> Algorithmic Survey</h2>
+			</div>
+			<div class="container">
+				<div>
+					<h3>What algorithms do you write?</h3>
+				</div>
+				<form>
+					<div class="form-group">
+	  					<label for="name">Name (Required):</label>
+	  					<input type="text" class="form-control" id="name">
+					</div>
+					<div class="form-group">
+	  					<label for="photo">Link to photo image (Required):</label>
+	  					<input type="text" class="form-control" id="photo">
+					</div>
+				</form>
+			</div>
+
+			<div class="container">
+				<h3>Question One</h3>
+				<div class="form-group">
+					<label for="questionOne"><h4> Greedy Algorithm is better than Dynamic Algorithm.</h4></label><br>
+					<select data-placeholder="Pick a number" class="chosen-select" id="qOneSelector">
+	    				<option value='1'>1 (Strongly Disagree)</option>
+	    				<option value='2'>2</option>
+	    				<option value='3'>3</option>
+	    				<option value='4'>4</option>
+	    				<option value='5'>5 (Strongly Agree)</option>
+	    			</select>
+	    		</div>
+			</div>
+
+			<div class="container">
+				<h3>Question Two</h3>
+				<div class="form-group">
+					<label for="questionTwo"><h4> You can memoize to make Dynamic Algorithm faster than Greedy algorithm?</h4></label><br>
+					<select data-placeholder="Pick how much you agree" class="chosen-select" id="qTwoSelector">
+	    				<option value='1'>1 (Strongly Disagree)</option>
+	    				<option value='2'>2</option>
+	    				<option value='3'>3</option>
+	    				<option value='4'>4</option>
+	    				<option value='5'>5 (Strongly Agree)</option>
+	    			</select>
+	    		</div>
+			</div>
+
+			<div class="container">
+				<h3>Question Three</h3>
+				<div class="form-group">
+					<label for="questionThree"><h4> Finonacci is always recursive.</h4></label><br>
+					<select data-placeholder="Pick how much you agree" class="chosen-select" id="qThreeSelector">
+	    				<option value='1'>1 (Strongly Disagree)</option>
+	    				<option value='2'>2</option>
+	    				<option value='3'>3</option>
+	    				<option value='4'>4</option>
+	    				<option value='5'>5 (Strongly Agree)</option>
+	    			</select>
+	    		</div>
+			</div>
+
+			<div class="container">
+				<h3>Question Four</h3>
+				<div class="form-group">
+					<label for="questionFour"><h4> Matrix manipulation is constant.</h4></label><br>
+					<select data-placeholder="Pick how much you agree" class="chosen-select" id="qFourSelector">
+	    				<option value='1'>1 (Strongly Disagree)</option>
+	    				<option value='2'>2</option>
+	    				<option value='3'>3</option>
+	    				<option value='4'>4</option>
+	    				<option value='5'>5 (Strongly Agree)</option>
+	    			</select>
+	    		</div>
+			</div>
+
+			<div class="container">
+				<h3>Question Five</h3>
+				<div class="form-group">
+					<label for="questionFive"><h4> Repetition algorithm is always better.</h4></label><br>
+					<select data-placeholder="Pick how much you agree" class="chosen-select" id="qFiveSelector">
+	    				<option value='1'>1 (Strongly Disagree)</option>
+	    				<option value='2'>2</option>
+	    				<option value='3'>3</option>
+	    				<option value='4'>4</option>
+	    				<option value='5'>5 (Strongly Agree)</option>
+	    			</select>
+	    		</div>
+			</div>
+
+			<div class="container">
+				<h3>Question Six</h3>
+				<div class="form-group">
+					<label for="questionSix"><h4> You solve algorithm problems everyday.</h4></label><br>
+					<select data-placeholder="Pick how much you agree" class="chosen-select" id="qSixSelector">
+	    				<option value='1'>1 (Strongly Disagree)</option>
+	    				<option value='2'>2</option>
+	    				<option value='3'>3</option>
+	    				<option value='4'>4</option>
+	    				<option value='5'>5 (Strongly Agree)</option>
+	    			</select>
+	    		</div>
+			</div>
+
+			<div class="container">
+				<h3>Question Seven</h3>
+				<div class="form-group">
+					<label for="questionSeven"><h4> You code all your algorithmic solutions!</h4></label><br>
+					<select data-placeholder="Pick how much you agree" class="chosen-select" id="qSevenSelector">
+	    				<option value='1'>1 (Strongly Disagree)</option>
+	    				<option value='2'>2</option>
+	    				<option value='3'>3</option>
+	    				<option value='4'>4</option>
+	    				<option value='5'>5 (Strongly Agree)</option>
+	    			</select>
+	    		</div>
+	    	</div>
+			<div class="container">
+				<h3>Question Eight</h3>
+				<div class="form-group">
+					<label for="questionEight"><h4> You use induction... for safety: (1) Guess at a formula | (2) conjecture | (3) Base Case | (4) Induction Hypothesis | (5) Inductive step </h4></label><br>
+					<select data-placeholder="Pick how much you agree" class="chosen-select" id="qEightSelector">
+	    				<option value='1'>1 (Strongly Disagree)</option>
+	    				<option value='2'>2</option>
+	    				<option value='3'>3</option>
+	    				<option value='4'>4</option>
+	    				<option value='5'>5 (Strongly Agree)</option>
+	    			</select>
+	    		</div>
+			</div>
+
+			<div class="container">
+				<h3>Question Nine</h3>
+				<div class="form-group">
+					<label for="questionNine"><h4> We usually QED at the end.</h4></label><br>
+					<select data-placeholder="Pick how much you agree" class="chosen-select" id="qNineSelector">
+	    				<option value='1'>1 (Strongly Disagree)</option>
+	    				<option value='2'>2</option>
+	    				<option value='3'>3</option>
+	    				<option value='4'>4</option>
+	    				<option value='5'>5 (Strongly Agree)</option>
+	    			</select>
+	    		</div>
+			</div>
+
+			<div class="container">
+				<h3>Question Ten</h3>
+				<div class="form-group">
+					<label for="questionTen"><h4> It is better to use a formula than to imagine one.</h4></label><br>
+					<select data-placeholder="Pick how much you agree" class="chosen-select" id="qTenSelector">
+	    				<option value='1'>1 (Strongly Disagree)</option>
+	    				<option value='2'>2</option>
+	    				<option value='3'>3</option>
+	    				<option value='4'>4</option>
+	    				<option value='5'>5 (Strongly Agree)</option>
+	    			</select>
+	    		</div>
+			</div>
+
+			<div class="container">
+				<h3>Question Eleven</h3>
+				<div class="form-group">
+					<label for="questionEleven"><h4> All text book on algorithms are the same.</h4></label><br>
+					<select data-placeholder="Pick how much you agree" class="chosen-select" id="qElevenSelector">
+	    				<option value='1'>1 (Strongly Disagree)</option>
+	    				<option value='2'>2</option>
+	    				<option value='3'>3</option>
+	    				<option value='4'>4</option>
+	    				<option value='5'>5 (Strongly Agree)</option>
+	    			</select>
+	    		</div>
+			</div>
+
+			<div class="container">
+				<h3>Question Twelve</h3>
+				<div class="form-group">
+					<label for="questionTwelve"><h4> You are always happy when your code runs.</h4></label><br>
+					<select data-placeholder="Pick how much you agree" class="chosen-select" id="qTwelveSelector">
+	    				<option selected value='1'>1 (Strongly Disagree)</option>
+	    				<option value='2'>2</option>
+	    				<option value='3'>3</option>
+	    				<option value='4'>4</option>
+	    				<option value='5'>5 (Strongly Agree)</option>
+	    			</select>
+	    		</div>
+			</div>
+
+			<div class="container">
+			<!-- Trigger the modal with a button -->
+			  	<button type="submit" class="btn btn-primary btn-lg btn-block" id="submitButton">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>Submit Your Prefrences</button>
+			
+			<!-- Modal -->
+			        <div id="resultsModal" class="modal fade" role="dialog">
+			            <div class="modal-dialog">
+			                <!-- Modal content-->
+			                <div class="modal-content">
+			                    <div class="modal-header">
+			                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			                        <h2 class="modal-title">
+			                            <strong> Your new algorithmic partner!</strong>
+			                        </h2>
+			                    </div>
+			                    <div class="modal-body">
+			                        <h2 id="partnerName"></h2>
+			          				<div id="partnerPhoto"></div>
+			          			</div>
+			        		</div>
+			        		<div class="modal-footer">
+			          			<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+			        		</div>
+			      		</div>			      
+			    	</div>
+			  	</div>			  
+			</div>
+			
+			<div class="container">
+				<div>
+					<a href="/api/friends" class="aPIs">FriendsAPI</a>
+					<a href="https://github.com/DustinSiegel/FriendFinder" class="gitHubLink">GitHubRepo</a>
+				</div>
+			</div>
+
+  			<script type="text/javascript">
+
+// Perform action when the submit butten is pressed =======================================================================
+  			  	$("#submitButton").on("click", function() {
+      				collectClimberData();
+      			});
+
+// Collect user input and build into an object and push to friends api ====================================================
+				function collectClimberData () {
+
+// Ensure that the fields are filled out ==================================================================================
+					var formComplete = true;
+		  				
+	  				$(".form-control").each(function() {
+	    				if ( $(this).val() === "") {
+	        				formComplete = false;
+	        				return formComplete;
+	        			};
+	  				});
+	  				
+	  				$(".chosen-select").each(function() {
+	  					if( $(this).val() === "") {
+	  						formComplete = false
+	  						return formComplete;
+	  					};
+	  				});
+
+// Build an object from user input =========================================================================================
+					if (formComplete = true) {
+
+	 					var climberData = {
+							name: $("#name").val(),
+							photo: $("#photo").val(),
+							scores: [
+								$("#qOneSelector").val(),
+								$("#qTwoSelector").val(),
+								$("#qThreeSelector").val(),
+								$("#qFourSelector").val(),
+								$("#qFiveSelector").val(),
+								$("#qSixSelector").val(),
+								$("#qSevenSelector").val(),
+								$("#qEightSelector").val(),
+								$("#qNineSelector").val(),
+								$("#qTenSelector").val(),
+								$("#qElevenSelector").val(),
+								$("#qTwelveSelector").val()
+							]
+						};
+
+// Post the new climber object to the friends api ===========================================================================
+						$.post("/api/friends", algorithmData, function(data) {
+							alert("Climber Data Submited!");
+							console.log("-----------------------");
+							console.log("New Climber:", algorithmData);
+							console.log("-----------------------");
+    						compareResults(); 
+    					}); 					
+					
+					} else {
+						alert("Please complete the form before submitting!");
+					};
+				};
+
+				function compareResults() {
+
+  					var currentURL = window.location.origin;
+  					$.ajax({ url: currentURL + "/api/friends", method: "GET" })
+      				.done(function(climberData) {
+      					console.log("------------------------------------");
+        				console.log("URL: " + currentURL + "/api/friends");
+        				console.log("------------------------------------");
+
+        				for (var i = 0; i < algorithmData.length; i++) {
+        					$("#partnerName").text(algorithmData[i].name);
+        					$("#partnerPhoto").text(algorithmData[i].photo);
+        					console.log("--------------------------------");
+        					console.log("Potential matches names: " + algorithmData[i].name);
+        					console.log("Potential matches photo url: " + algorithmData[i].photo);
+        					console.log("--------------------------------");
+		        		};
+		        		$("#resultsModal").modal('toggle');
+  					});
+  				};
+
+  			</script>
+
+		</body>
+	</html>
