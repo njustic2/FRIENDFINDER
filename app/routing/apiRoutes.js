@@ -1,19 +1,19 @@
 // Links to a source file with an array of friendsData =========================================================================
-var climberData = require("../data/friends");
+var algorithmData = require("../data/friends");
 
 // Sets up a routing function that connects to an html file ====================================================================
 module.exports = function(app) {
 
 // Connects to an array on a javascript file and gets any data =================================================================
 	app.get("/api/friends", function(req, res) {
-    	res.json(climberData);
+    	res.json(algorithmData);
     	console.log("this is working");
   	});
 
 // Takes in user input data, converts it to json and posts it to the array  ====================================================
 	app.post("/api/friends", function(req, res) {
 		console.log("req.body", req.body);
-		console.log("ClimberData", climberData);
+		console.log("algorithmData", algorithmData);
 
 // Compare the user input to the existing profiles to find the best match ======================================================		
 
@@ -22,7 +22,7 @@ module.exports = function(app) {
 		var currentClimberScores = userData.scores;
 
 // A variable that takes the data from the friends.js and puts it into an array and seperates out the scores ===================	
-		var allClimberScores = climberData.map(function(currentClimber) {
+		var allClimberScores = algorithmData.map(function(currentClimber) {
 			return currentClimber.scores;
 		});
 
@@ -54,11 +54,11 @@ module.exports = function(app) {
 		console.log('collapsedDifferences:', collapsedDifferences);
 		console.log("absoluteDifferences:", absoluteDifferences);
 		console.log("mostCompatableArrayPosition:", mostCompatableArrayPosition);
-		console.log("Match:", climberData[mostCompatableArrayPosition]);
+		console.log("Match:", algorithmData[mostCompatableArrayPosition]);
 
 // Push the result back to the modal ===========================================================================================
-		climberData.push(userData);
-		climberData.push(climberData[mostCompatableArrayPosition]);
+		algorithmData.push(userData);
+		algorithmData.push(algorithmData[mostCompatableArrayPosition]);
 		res.json(true);
 
 // A function that does the work of comparing the climber scores and producing an array of the difference between each answer ===
