@@ -2,7 +2,7 @@
 var algorithmData = [
 	{
 		"name":"Nathan Justice",
-		"photo":"https://www.facebook.com/photo.php?fbid=10151066868400423&set=a.425834750422.222982.660685422&type=3&theater",
+		"photo":"https://imgur.com/a/NeL7I",
 		"scores":[
 			2,
 			2,
@@ -20,7 +20,7 @@ var algorithmData = [
 	},
 	{
 		"name":"Oriana Ganarus",
-		"photo":"https://www.facebook.com/photo.php?fbid=10153688742769941&set=a.446492654940.225174.609629940&type=3&theater",
+		"photo":"https://imgur.com/a/jfMDo",
 		"scores":[
 			2,
 			1,
@@ -38,7 +38,7 @@ var algorithmData = [
 	},
 	{
 		"name":"Kelly Hickler",
-		"photo":"https://www.facebook.com/photo.php?fbid=10104240813452701&set=a.983619706121.2591317.6011011&type=3&theater",
+		"photo":"https://imgur.com/a/wI1GN",
 		"scores":[
 			3,
 			1,
@@ -56,7 +56,7 @@ var algorithmData = [
 	},
 	{
 		"name":"Jason Falkner",
-		"photo":"https://www.facebook.com/photo.php?fbid=10155524341941399&set=a.472241596398.272379.625571398&type=3&theater",
+		"photo":"https://imgur.com/a/mEqkC",
 		"scores":[
 			3,
 			1,
