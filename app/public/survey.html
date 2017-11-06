@@ -266,7 +266,7 @@
 // Build an object from user input =========================================================================================
 					if (formComplete = true) {
 
-	 					var climberData = {
+	 					var algorithmData = {
 							name: $("#name").val(),
 							photo: $("#photo").val(),
 							scores: [
@@ -291,7 +291,7 @@
 							console.log("-----------------------");
 							console.log("New Algorithm:", algorithmData);
 							console.log("-----------------------");
-    						compareResults(); 
+    						compareResults(algorithmData); 
     					}); 					
 					
 					} else {
@@ -303,7 +303,7 @@
 
   					var currentURL = window.location.origin;
   					$.ajax({ url: currentURL + "/api/friends", method: "GET" })
-      				.done(function(climberData) {
+      				.done(function(algorithmData) {
       					console.log("------------------------------------");
         				console.log("URL: " + currentURL + "/api/friends");
         				console.log("------------------------------------");
